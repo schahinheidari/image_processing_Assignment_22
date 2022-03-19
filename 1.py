@@ -1,8 +1,8 @@
 import cv2 as cv
-import numpy as np
 
-img1 = cv.imread("a.tif", 0)
-img2 = cv.imread("b.tif", 0)
+
+img1 = cv.imread("images/a.tif", 0)
+img2 = cv.imread("images/b.tif", 0)
 
 
 for i in range(512):
@@ -12,6 +12,6 @@ for i in range(512):
 res = img1 - img2
 res = cv.subtract(img1, img2)
 print(res.shape)
-cv.imwrite('decrypt.jpg', res)
+cv.imwrite('images/decrypt.jpg', res)
 cv.imshow('output', res)
 cv.waitKey()
