@@ -26,7 +26,12 @@
 
 https://github.com/schahinheidari/image_processing_Assignment_22/blob/97a169152171807ae63a672b88aee0f42db35585/images/result_5.1.mp4
 
-<h2 align="center">f ==> Merge pictures</h2>
+<h2 align="center">f ==> Image to sketch</h2>
 
 <p align="center">After processing</p>
-<a href="url"><img src="images/result_5.jpg" align="center" height="500" width="500" ></a>
+<a href="url"><img src="images/result6.jpg" align="center" height="500" width="500" ></a>
+
+<h2 align="center">g ==> Add noise to Mona lisa</h2>
+
+<p align="center">After processing</p>
+<a href="url"><img src="images/result7.jpg" align="center" height="500" width="500" ></a>
